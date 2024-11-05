@@ -273,7 +273,9 @@ if(e.target.id[2] == 'P' & e.target.id[3] == ochi)
 
 
 if(chhh1 != 0 & e.target.id[2] != undefined & e.target.id[3] == ochi) {
-   
+    for(let gh = 0; gh < hClv.length; gh++){
+       arr[8 -(hClv[gh])[1]*1][xarr.indexOf((hClv[gh])[0])].style.outline = ''}
+            arr[y2][x2].style.outline 
      if(e.target.id[3] == ochi){
     y1= e.target.id[1]*1
     x1 = (xarr.indexOf( e.target.id[0]) + 1 )*1
