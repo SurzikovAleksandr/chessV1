@@ -328,17 +328,17 @@ if(arr[8-y1*1+1][x1*1-1].id[2] == undefined ) {hClv.push(arr[8-y1*1+1][x1*1-1].i
 
 
 }}}
-if(x2 != -1 & y2 != -1 )
+if(x2 != -1 & y2 != -1 ){
     arr[y2][x2].style.outline = ''
    if(hClv.length != 0) {arr[8 - e.target.id[1]][xarr.indexOf(e.target.id[0])].style.outline = '0.5vw solid green'}else{arr[8 - e.target.id[1]][xarr.indexOf(e.target.id[0])].style.outline = '0.5vw solid red'}
     y2 = 8-e.target.id[1]
     x2 = xarr.indexOf(e.target.id[0])
-
+}
     for(let gh = 0; gh < hClv.length; gh++){
     if( arr[8 -(hClv[gh])[1]*1][xarr.indexOf((hClv[gh])[0])].id[3] == ochi2){arr[8 -(hClv[gh])[1]*1][xarr.indexOf((hClv[gh])[0])].style.outline = '0.5vw solid purple'}else{arr[8 -(hClv[gh])[1]*1][xarr.indexOf((hClv[gh])[0])].style.outline = '0.5vw solid blue'}
     
 }
-}
+
 
 if(hClv.includes(e.target.id))
     {
